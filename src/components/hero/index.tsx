@@ -37,9 +37,11 @@ const Hero = () => {
                         </div>
                     </div>
                     <div>
-                        <Link href="/">
-                            <div className="rounded-md bg-yellow-400 font-semibold text-stone-900 cursor-pointer mx-auto max-w-[60%] px-2 py-1 text-center hover:bg-yellow-500">Konsultasi Gratis</div>
-                        </Link>
+                        <div className="rounded-md bg-yellow-400 font-semibold text-stone-900 cursor-pointer mx-auto max-w-[60%] px-2 py-1 text-center hover:bg-yellow-500">
+                            <Link href="/" className="w-full">
+                                Konsultasi Gratis
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
