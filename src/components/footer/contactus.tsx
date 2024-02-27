@@ -24,11 +24,11 @@ const options = [
 const ContactUs = () => {
     return (
         <Section>
-            <div className="bg-stone-900 w-full min-h-24 flex flex-col justify-center items-center">
-                <div className="font-bold text-lg text-yellow-50 w-[50%] text-center underline decoration-yellow-400 decoration-4 underline-offset-4">
+            <div className="bg-stone-900 w-full flex flex-col justify-center items-center">
+                <div className="font-bold text-lg text-yellow-50 w-[50%] text-center underline decoration-yellow-400 decoration-4 underline-offset-4 py-2">
                     Layanan Jasa Kontraktor Terbaik
                 </div>
-                <div className="my-8 px-4 flex flex-row gap-4 pb-3 w-full overflow-x-scroll snap-x snap-mandatory touch-auto scrollbar-thin scrollbar-track-stone-900 scrollbar-thumb-stone-700 select-none">
+                <div className="my-6 px-4 flex flex-row gap-4 pb-3 w-full overflow-x-scroll snap-x snap-mandatory touch-auto scrollbar-thin scrollbar-track-stone-900 scrollbar-thumb-stone-700 select-none">
                     {options.map((option, i) => 
                         <div key={i} className="flex flex-col relative snap-center">
                             <div className="w-[15svw]">

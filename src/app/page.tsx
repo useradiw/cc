@@ -1,3 +1,4 @@
+import FAQ from "@/components/faq";
 import ContactUs from "@/components/footer/contactus";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Services />
       <ContactUs />
+      <FAQ />
     </>
   );
 }
