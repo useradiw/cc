@@ -6,7 +6,7 @@ interface Props {
 const Section = (Props: Props) => {
     const { children, className } = Props;
     return (
-        <section className={`my-2 ${className}`}>
+        <section className={`my-2 ${className} md:max-w-[50svw] md:mx-auto`}>
             {children}
         </section>
     )

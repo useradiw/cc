@@ -31,7 +31,7 @@ const ContactUs = () => {
                 <div className="my-6 px-4 flex flex-row gap-4 pb-3 w-full overflow-x-scroll snap-x snap-mandatory touch-auto scrollbar-thin scrollbar-track-stone-900 scrollbar-thumb-stone-700 select-none">
                     {options.map((option, i) => 
                         <div key={i} className="flex flex-col relative snap-center">
-                            <div className="w-[15svw]">
+                            <div className="w-52">
                                 <Image 
                                     src= {option.image}
                                     alt= "Card Image"

@@ -19,8 +19,8 @@ const Hero = () => {
                         priority
                     />
                 </div>
-                <div className="absolute top-0 bg-stone-950/70 w-full h-full px-6 py-8 flex flex-col gap-4">
-                    <div className="flex flex-row gap-4">
+                <div className="absolute top-0 bg-stone-950/70 w-full h-full px-6 py-8 flex flex-col gap-4 sm:p-12 lg:py-20 xl:py-32">
+                    <div className="flex flex-row gap-4 lg:justify-center lg:items-center">
                         <div className="flex justify-center items-center">
                             <Image 
                                 src={Blueprint}
@@ -30,7 +30,7 @@ const Hero = () => {
                                 className="aspect-square"
                             />
                         </div>
-                        <div className="flex justify-center items-center max-w-36">
+                        <div className="flex justify-center items-center max-w-36 sm:h-20 sm:w-64">
                             <div className="font-bold text-yellow-50">
                                 <TextAnimation />
                             </div>

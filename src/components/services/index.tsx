@@ -18,7 +18,7 @@ const Options = [
 const Services = () => {
     return (
         <Section>
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-3 gap-2 md:px-8">
                 {Options.map((option, i) => 
                     <Card icon={option.icon} text={option.text} key={i}/>
                 )}
