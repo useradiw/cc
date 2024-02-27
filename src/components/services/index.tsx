@@ -12,7 +12,7 @@ const Options = [
     {icon: pic3, text: "Installasi Listrik"},
     {icon: pic4, text: "Pancang dan Fondasi"},
     {icon: pic5, text: "Audit Proyek"},
-    {icon: pic5, text: "Audit Proyek"},
+    {icon: pic5, text: "Renovasi"},
 ];
 
 const Services = () => {
